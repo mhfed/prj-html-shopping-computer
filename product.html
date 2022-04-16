@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <script type="module" src="js/renderElement.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <my-header></my-header>
+    <!--end header nav -->
+
+    <!-- product -->
+    <section class="product">
+        <div class="container">
+            <div class="row bg-white pt-4 pb-4 border-bt pc">
+                <nav class="menu__nav col-lg-3 col-md-12 col-sm-0">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/dienthoai.png" alt=""> Điện thoại
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/laptop.png" alt=""> Laptop
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/tablet.png" alt=""> Tablet
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/phukien.png" alt=""> Phụ kiện
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/SmartWatch.png" alt=""> SmartWatch
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/AppleWatch.png" alt=""> Apple Watch
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/Thiết bị máy in.png" alt=""> Thiết bị máy in
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/Máy tính bộ, màn hình.png" alt=""> Máy tính bộ, màn hình
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/tainghe.png" alt=""> Tai nghe
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link">
+                                <img class="menu__item-icon" src="img/icon/dienthoai.png" alt=""> Camera
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <article class="product__main col-lg-9 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="product__main-img col-lg-4 col-md-4 col-sm-12">
+                            <div class="product__main-img-primary">
+                                <img src="img/a.jpg">
+                            </div>
+
+                            <div class="product__main-img-list">
+                                <img src="img/b.jpg">
+                                <img src="img/c.jpg">
+                                <img src="img/d.jpg">
+                                <img src="img/e.jpg">
+                                <img src="img/f.jpg">
+                                <img src="img/h.jpg">
+                            </div>
+                        </div>
+
+                        <div class="product__main-info col-lg-8 col-md-8 col-sm-12">
+                            <div class="product__main-info-breadcrumb">
+                                Trang chủ / Sản phẩm
+                            </div>
+
+                            <a href="#" class="product__main-info-title">
+                                <h2 class="product__main-info-heading">
+                                    Laptop Acer Aspire 7 A715 42G R4ST R5
+                                </h2>
+                            </a>
+
+                            <div class="product__main-info-rate-wrap">
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                                <i class="fas fa-star product__main-info-rate"></i>
+                            </div>
+
+                            <div class="product__main-info-price">
+                                <span class="product__main-info-price-current">
+                                    18.990.000₫
+                                </span>
+                            </div>
+
+                            <div class="product__main-info-description">
+                                Laptop Acer Aspire 7 A715 42G R4ST R5 (NH.QAYSV.004) có thiết kế đơn giản, trang nhã nhưng trang bị cấu hình mạnh mẽ đáp ứng nhu cầu đồ hoạ, kỹ thuật chuyên nghiệp và chiến game mượt mà.
+                            </div>
+
+                            <div class="product__main-info-cart">
+                                <div class="product__main-info-cart-quantity">
+                                    <input type="button" value="-" class="product__main-info-cart-quantity-minus">
+                                    <input type="number" step="1" min="1" max="999" value="1" class="product__main-info-cart-quantity-total">
+                                    <input type="button" value="+" class="product__main-info-cart-quantity-plus">
+                                </div>
+
+                                <div class="product__main-info-cart-btn-wrap">
+                                    <button class="product__main-info-cart-btn">
+                                        Thêm vào giỏ hàng
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="product__main-info-contact">
+                                <a href="#" class="product__main-info-contact-fb">
+                                    <i class="fab fa-facebook-f"></i> Chat Facebook
+                                </a>
+                                <div class="product__main-info-contact-phone-wrap">
+                                    <div class="product__main-info-contact-phone-icon">
+                                        <i class="fas fa-phone-alt "></i>
+                                    </div>
+
+                                    <div class="product__main-info-contact-phone">
+                                        <div class="product__main-info-contact-phone-title">
+                                            Gọi điện tư vấn
+                                        </div>
+                                        <div class="product__main-info-contact-phone-number">
+                                            ( 0987.654.321)
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bg-white">
+                        <div class="col-12 product__main-tab">
+                            <a href="#" class="product__main-tab-link product__main-tab-link--active">
+                                Mô tả
+                            </a>
+                            <a href="#" class="product__main-tab-link">
+                                Đánh giá
+                            </a>
+                        </div>
+
+                        <div class="col-12 product__main-content-wrap">
+                            <h2 class="product__main-content-heading">
+                                Đánh giá Laptop Acer Aspire 7 A715 42G R4ST R5
+                            </h2>
+
+                            <p>
+                                <span>Laptop Acer Aspire 7</span>ở hữu bộ xử lý AMD Ryzen 5 5500U giúp máy hoạt động mượt mà, ổn định khi thực hiện mọi tác vụ và chơi game với 6 lõi 12 luồng.
+                            </p>
+
+                            <p>
+                                <span>Laptop Acer Aspire 7</span> Xử lý nhanh chóng các ứng dụng nặng như AutoCad, After Effect, Premiere,... nhờ xung nhịp trung bình của CPU AMD này là 2.1 GHz và được đẩy lên tối đa 4.0 GHz nhờ công nghệ Turbo Boost.
+                            </p>
+
+                            <p>
+                                <span>Laptop Acer Aspire 7 A715 42G</span> Mẫu laptop này được Acer trang bị card đồ họa rời NVIDIA GeForce GTX 1650 4GB được thiết kế theo kiến trúc Turning hiện đại, đáp ứng tốt nhu cầu làm việc, giải trí. Bạn sẽ không
+                                cần phải lo lắng và luôn tràn đầy cảm hứng khi chiến các tựa game phổ biến nhất hiện nay như PUBG, Fornite, GTA V,... ở mức yêu cầu về độ hoạ trung bình và cao (Medium hoặc High).
+                            </p>
+                            <p>
+                                <span>Laptop Acer Aspire 7 A715 42G R4ST R5</span> Bộ nhớ RAM 8 GB giúp máy có thể mở cùng lúc nhiều ứng dụng mà không ngại giật, lag. Ngoài ra, Acer còn trang bị một khe RAM trống có thể hỗ trợ nâng cấp lên đến 32 GB,
+                                thoải mái đáp ứng nhu cầu của từng đối tượng người sử dụng. Tốc độ bus RAM lên đến 3200 Hz.
+                            </p>
+                            <p>
+                                <span>Aspire 7 A715</span> trang bị sẵn ổ cứng 256 GB MVMe PCle cho laptop có tốc độ khởi động máy, mở ứng dụng, truy xuất dữ liệu nhanh chóng. Dung lượng lưu trữ dữ liệu từ ổ cứng này là đủ dùng để cài đặt các phần mềm,
+                                tựa game ưa thích và lưu dữ những tài liệu quan trọng.
+                            </p>
+                            <p>
+                                <span>Ngoài ra,</span>tình trạng quá nhiệt ở laptop này sẽ hiếm khi xảy ra nhờ hệ thống hai quạt tản nhiệt mạnh mẽ, tối ưu hiệu năng trong thời gian dài sử dụng.
+                            </p>
+
+                            <h3>
+                                Thiết kế đơn giản, trang nhã
+                            </h3>
+                            <p>
+                                Laptop Acer Aspire này vẫn giữ thiết kế phổ biến của một chiếc laptop với vỏ ngoài bằng nhựa, kết cấu cứng cáp, cho cảm giác chắc tay khi cầm. Chiếc laptop này có độ dày 22.9 mm và trọng lượng 2.1 kg bạn có thể để vào ba lô để mang theo khi đi làm việc.
+                            </p>
+                            <p>
+                                Bàn phím được trang bị đèn nền màu trắng giúp bạn gõ chính xác trong môi trường ánh sáng yếu.
+                            </p>
+
+                            <p>
+                                Đặc biệt, khả năng kết nối không dây của mẫu này được nâng cấp thành chuẩn Wi-Fi 6 802.11ax với tốc độ truyền tải lên đến hơn 10.000 Mbps. Bên cạnh đó, laptop này đạt chuẩn Bluetooth v5.0 với tốc độ kết nối 50 Mbps.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <aside class="product__aside col-lg-3 col-md-0 col-sm-0">
+                    <div class="product__aside-top">
+                        <div class="product__aside-top-item">
+                            <img src="images/less.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Mua hàng tiết kiệm
+                                </p>
+                                <span>
+                                    Rẻ hơn từ 10% đến 30%
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img src="images/shipper.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Giao hàng nhanh chóng
+                                </p>
+                                <span>
+                                    Chỉ trong vòng 12h
+                                </span>
+                            </div>
+                        </div>
+                        <div class="product__aside-top-item">
+                            <img src="images/brand.png">
+                            <div class="product__aside-top-item-text">
+                                <p>
+                                    Sản phẩm chính hãng
+                                </p>
+                                <span>
+                                    Sản phẩm nhập khẩu 100%
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="product__aside-bottom">
+                        <h3 class="product__aside-heading">
+                            Có thể bạn thích
+                        </h3>
+
+                        <div class="product__aside-list">
+                            <div class="product__aside-item product__aside-item--border">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/product/5.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">CPU Intel Core i9 9900K 3.6 GHz turbo up to 5.0 GHz /8 Cores</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            13,190,000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/product/6.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Camera Xiaomi Yi – Cloud Dome 1080P</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            1.250.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/product/4.png" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading">Apple Watch Series 4 Gold Stainless Steel Case</h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            2.200.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/like/1.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Bàn phím chơi game Asus TUF K5 (USB/RGB/Đen)
+                                        </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            989.000đ 
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/like/3.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Ghế Gamer Arena Racer Craftsman RLB - ARF09 RLB Blue </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            12.499.000đ 
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/like/5.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Giá đỡ máy tính gắn bàn đa năng North Bayou FC35 (22-35 INCH) </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            1.990.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/like/6.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Microphone Elgato Wave 3 </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            4.359.000đ 
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product__aside-item">
+                                <div class="product__aside-img-wrap">
+                                    <img src="img/like/2.jpg" class="product__aside-img">
+                                </div>
+                                <div class="product__aside-title">
+                                    <a href="#" class="product__aside-link">
+                                        <h4 class="product__aside-link-heading"> Bàn di chuột Gaming Led RGB XMG-01 Size XL (300 x 800 x 4mm) </h4>
+                                    </a>
+
+                                    <div class="product__aside-rate-wrap">
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                        <i class="fas fa-star product__aside-rate"></i>
+                                    </div>
+
+                                    <div class="product__aside-price">
+                                        <span class="product__aside-price-current">
+                                            299.000đ
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+            </div>
+
+            <section class="product__love col-12 mt-4">
+                <div class="row bg-white">
+                    <div class="col-lg-12 col-md-12 col-sm-12 product__love-title">
+                        <h2 class="product__love-heading">
+                            Sản phẩm tương tự
+                        </h2>
+                    </div>
+                </div>
+                <div class="row bg-white">
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/1.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Apple Macbook Air 2017</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide">
+                            19.890.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                            19.490.000đ
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/2.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Laptop Asus Rog G752VS-BA263</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide">
+                            13.500.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                                12,200,000đ
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/4.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Laptop Dell Vostro V3568</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide 
+                        ">
+                            19.500.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                            22.200.000đ
+                        </span>
+                        </div>
+                    </div>
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/9.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Laptop Asus Rog G752VS-BA263</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide">
+                            30.500.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                            29.000.000đ
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/8.jpg" alt="" class="product__panel-img" width="110">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Apple Macbook Pro 2017 13.3 Inch Touch</a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide">
+                            17.500.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                            16.590.000đ
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="product__panel-item col-lg-2 col-md-3 col-sm-6">
+                        <div class="product__panel-img-wrap">
+                            <img src="img/laptop/7.jpg" alt="" class="product__panel-img">
+                        </div>
+                        <h3 class="product__panel-heading">
+                            <a href="#" class="product__panel-link">Laptop HP Envy 13-ad074TU
+                        </a>
+                        </h3>
+                        <div class="product__panel-rate-wrap">
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                            <i class="fas fa-star product__panel-rate"></i>
+                        </div>
+
+                        <div class="product__panel-price">
+                            <span class="product__panel-price-old product__panel-price-old-hide">
+                            14.500.000đ
+                        </span>
+                            <span class="product__panel-price-current">
+                            12.210.000đ
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!--product -->
+
+    <!-- footer -->
+    <my-footer></my-footer>
+    <!-- end footer -->
+
+    <script src="js/jq.js"></script>
+
+</body>
+
+</html>
