@@ -4,7 +4,8 @@
 # Preview
 <img width="1440" alt="Screen Shot 2023-05-27 at 18 54 14" src="https://github.com/mhfed/Codethuegiaodien/assets/99587167/d39861cb-dcf6-4b3f-8acf-2ed55fccb31d">
 ## Home page
-![screencapture-mhfed-github-io-Codethuegiaodien-2023-05-27-18_54_22](https://github.com/mhfed/Codethuegiaodien/assets/99587167/af8cbeb7-2f7a-4179-a150-07e5c428f5e5)
+<img width="1440" alt="Screen Shot 2023-05-27 at 18 54 14" src="https://github.com/mhfed/Codethuegiaodien/assets/99587167/af8cbeb7-2f7a-4179-a150-07e5c428f5e5">
+
 ## Blog page
 ![screencapture-mhfed-github-io-Codethuegiaodien-post-html-2023-05-27-18_54_59](https://github.com/mhfed/Codethuegiaodien/assets/99587167/2385d1f2-6562-47b8-bf21-00d5bac703ff)
 ## Contact page
