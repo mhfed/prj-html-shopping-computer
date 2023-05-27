@@ -1,5 +1,5 @@
 # Codethuegiaodien using HTML, CSS, Javascript
-# This site has 5 pages.
+# This site has 5 pages : Home Page, Blog Page, Contact Page, Detail Product Page, Cart Page
 ### Visit the site here: https://mhfed.github.io/Codethuegiaodien/
 
 # Preview
